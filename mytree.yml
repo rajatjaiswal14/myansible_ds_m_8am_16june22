@@ -5,4 +5,9 @@
   - name: i want to install tree
     apt:
      name: tree
-     state: present  
+     state: present
+
+  - name: install git
+    apt:
+      name: git 
+      state: present  
